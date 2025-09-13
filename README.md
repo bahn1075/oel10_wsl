@@ -1,6 +1,6 @@
 # Oracle Linux 10 WSL
 
-Oracle Linux 10 Slim distribution for Windows Subsystem for Linux (WSL).
+Oracle Linux 10 distribution for Windows Subsystem for Linux (WSL).
 
 ## 📋 Overview
 
