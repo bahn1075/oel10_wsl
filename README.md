@@ -38,11 +38,8 @@ Download the `oel10.tar.gz` file from the Google Drive link above.
 Execute the following command in PowerShell:
 
 ```powershell
-# Default installation (C drive)
-wsl --import oel10 C:\WSL\oel10 path\to\downloaded\oel10.tar.gz
-
-# Custom path example (F drive)
-wsl --import oel10 F:\wsl\oel10 E:\wsl_backup\oel10.tar.gz
+# install example (D drive)
+wsl --import oel10 D:\wsl\oel10 path\to\downloaded\oel10.tar.gz
 ```
 
 > **Note**: Modify the path to match your actual download location.
