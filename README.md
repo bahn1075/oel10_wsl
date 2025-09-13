@@ -103,14 +103,6 @@ wsl -t oel10
 ```powershell
 wsl --unregister oel10
 ```
-
-### Enable systemd
-```bash
-sudo bash -c 'echo -e "[boot]\nsystemd=true" >> /etc/wsl.conf'
-```
-
-Restart WSL to activate systemd.
-
 ## 📚 Additional Information
 
 ### Oracle Linux Features
