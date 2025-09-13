@@ -104,25 +104,6 @@ wsl -t oel10
 wsl --unregister oel10
 ```
 
-## 🔧 Troubleshooting
-
-### Resolve Mount Errors
-If you encounter Windows drive mount errors:
-
-```bash
-# Clear /etc/fstab file
-sudo > /etc/fstab
-
-# Restart WSL
-exit
-```
-
-In PowerShell:
-```powershell
-wsl --shutdown
-wsl -d oel10
-```
-
 ### Enable systemd
 ```bash
 sudo bash -c 'echo -e "[boot]\nsystemd=true" >> /etc/wsl.conf'
